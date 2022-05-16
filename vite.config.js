@@ -6,6 +6,10 @@ import path from 'path'
 export default defineConfig({
   plugins: [vue()],
   resolve: {
+    /**
+     * This is where you define your path shortcuts. 
+     * Basically, you can abreviate your paths by defining an alias.
+     */
     alias: {
       '@': path.resolve(__dirname, './src'),
       '@.': path.resolve(__dirname, './')
