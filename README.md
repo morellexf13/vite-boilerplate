@@ -13,7 +13,10 @@ Tuto is the short of Tutorial and the best/easier way to start creating a SPA us
 - Basic Store configured using Pinia and Persist Plugin (stores/index.js).
 - Basic "Home" and "Login" pages defined (src/pages/).
 - Basic router configuration defined (/router.js).
-- Basic GET request using Axios (Spotify Tracker API). <br/><br/> !This request needs an [Authorization Bearer Token ](https://developer.spotify.com/console/get-users-currently-playing-track/). For security purposes you can just set this token on environment files.
+- Basic GET request using Axios (Spotify Tracker API). 
+
+![Spotify Tracker Screenshot](./src/assets/screenshots/Spotify%20Tracker.png?raw=true "Title")
+<br/> !This request needs an [Authorization Bearer Token ](https://developer.spotify.com/console/get-users-currently-playing-track/). For security purposes you can just set this token on environment files.
 <br/>
 - Environment file example.
 
