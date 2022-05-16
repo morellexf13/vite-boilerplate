@@ -1,8 +1,9 @@
 /**
- * 🚏 This file defines your pages routes. 
+ * ⛔️ This file defines your pages routes. 
  *   How to add a new page:
  *   1. Create a new .vue file inside the pages folder.
- *   2. Add a new object item to the routes array.
+ *   2. Import it as you can see below.
+ *   3. Add a new object item to the routes array defining the path, name and component.
  */
 
 import { createRouter, createWebHistory } from "vue-router"

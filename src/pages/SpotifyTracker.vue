@@ -1,5 +1,5 @@
 <template>
-    <h1>You are in the Spotify Tracker page</h1>
+    <Title>Spotify Tracker</Title>
     <div v-if="isPlaying">
       <img :src="imgSrc">
       <h3> 🎸 You are currently listening to {{song}} by {{artist}}</h3>
@@ -10,10 +10,14 @@
 </template>
 
 <script>
-import * as api from '../assets/scripts/api'
+import * as api from '@/assets/scripts/api'
+import Title from '@/components/Title.vue'
 export default {
   name: "SpotifyTracker",
-   mounted () {
+  components: { 
+    Title
+  },
+  mounted () {
     api.getUsersCurrentlyPlayingTrack()
     .then(item => {
         this.isPlaying = true

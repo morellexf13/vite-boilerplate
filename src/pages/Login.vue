@@ -1,12 +1,18 @@
 <template>
-    <h1>You are in the Login page</h1>
-    <button v-on:click="login()">Login</button>
+    <Title>Login</Title>
+    <Button v-on:click="login()">Login</Button>
 </template>
 
 <script>
-import { useStore } from '../../stores/index'
+import Title from '@/components/Title.vue'
+import Button from '@/components/Button.vue'
+import { useStore } from '@./stores/index'
 export default {
   name: "Login",
+  components: { 
+    Title,
+    Button
+  },
   methods: {
     login() {
       // 🚪 Set userLoggedIn state to true

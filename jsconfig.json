@@ -1,0 +1,9 @@
+// 🪲 Fix MIME Type error after defining alias.
+{
+    "compilerOptions": {
+      "baseUrl": ".",
+      "paths": {
+        "@/*": ["src/*"]
+      }
+    }
+}
