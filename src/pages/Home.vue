@@ -1,25 +1,31 @@
 <template>
-    <h1>You are in the Home page</h1>
-    <button v-on:click="goToSpotifyTracker()">Spotify Tracker</button> &nbsp;
-    <button v-on:click="logout()">Logout</button>
+    <Title>Home</Title>
+    <Button v-on:click="goToSpotifyTracker()">Spotify Tracker</Button> &nbsp;
+    <Button v-on:click="logout()">Logout</Button>
 </template>
 
 <script>
-import { useStore } from '../../stores/index'
+import Title from '@/components/Title.vue'
+import Button from '@/components/Button.vue'
+import { useStore } from '@./stores/index'
 export default {
-  name: "Home",
-  methods: {
-    logout() {
-      // 🚪 Set userLoggedIn state to false
-      const store = useStore(this.$pinia)
-      store.setUserLoggedOut()
-      // 🔄 Redirect to Login
-      this.$router.push('/login')
+    name: "Home",
+    components: { 
+      Title,
+      Button
     },
-    goToSpotifyTracker() {
-      this.$router.push('/spotify')
+    methods: {
+        logout() {
+            // 🚪 Set userLoggedIn state to false
+            const store = useStore(this.$pinia);
+            store.setUserLoggedOut();
+            // 🔄 Redirect to Login
+            this.$router.push("/login");
+        },
+        goToSpotifyTracker() {
+            this.$router.push("/spotify");
+        }
     }
-  }
 };
 </script>
 
