@@ -1,6 +1,6 @@
 <template>
     <Title>Login</Title>
-    <Button v-on:click="login()">Login</Button>
+    <Button id="btn-login" v-on:click="login()">Login</Button>
 </template>
 
 <script>
