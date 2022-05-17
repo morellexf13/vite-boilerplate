@@ -1,7 +1,7 @@
 <template>
     <Title>Home</Title>
     <Button v-on:click="goToSpotifyTracker()">Spotify Tracker</Button> &nbsp;
-    <Button v-on:click="logout()">Logout</Button>
+    <Button id="btn-logout" v-on:click="logout()">Logout</Button>
 </template>
 
 <script>
