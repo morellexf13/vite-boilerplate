@@ -33,3 +33,7 @@ Tuto is the short of Tutorial and the best/easier way to start creating a SPA us
 
 1. `npm install`
 2. `npm run dev`
+
+## 🧪 Run tests
+
+1. `npm run test`
