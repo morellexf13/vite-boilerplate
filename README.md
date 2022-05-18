@@ -2,7 +2,7 @@
 
 ![Generic badge](https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vue.js&logoColor=4FC08D) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![SASS](https://img.shields.io/badge/SASS-hotpink.svg?style=for-the-badge&logo=SASS&logoColor=white) ![Jest](https://img.shields.io/badge/-jest-%23C21325?style=for-the-badge&logo=jest&logoColor=white)
 
-This boilerplate helps you to start creating your own Vue 3 projects using ⚡️Vite, 🍍Pinia, 🚏Vuex Router, 📡 Axios and more amazing tools.
+This boilerplate helps you to start creating your own Vue 3 projects using ⚡️Vite, 🍍Pinia, 🚏Vuex Router, 📡 Axios, 🤹🏻‍♂️ Jest and more amazing tools.
 
 Tuto is the short of Tutorial and the best/easier way to start creating a SPA using the latest versions of the best frameworks out there! 🤩
 
