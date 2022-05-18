@@ -1,8 +1,8 @@
 {
   "name": "tuto",
   "description": "This boilerplate helps you to start creating your own Vue 3 projects using amazing tools!",
-  "private": true,
-  "version": "0.0.1",
+  "private": false,
+  "version": "0.0.3",
   "scripts": {
     "dev": "vite",
     "test": "jest",
