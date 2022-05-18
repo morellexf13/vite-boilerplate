@@ -1,5 +1,5 @@
 /**
- * 💾 Create a script file like this "index.js" in the "stores" folder
+ * 💾 Create a script file like this "index.js" inside the "stores" folder
  * for each store you want to use. This one is intended to be used as a "main"
  * store to manage the general application state, for example: user session, theme, etc.
  */
