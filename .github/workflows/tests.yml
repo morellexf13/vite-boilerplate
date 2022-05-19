@@ -1,4 +1,4 @@
-name: Node.js CI
+name: Run unit tests
 
 on:
   push:
@@ -10,11 +10,10 @@ jobs:
   build:
 
     runs-on: ubuntu-latest
-
+  
     strategy:
       matrix:
-        node-version: [12.x, 14.x, 16.x]
-        # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
+        node-version: [16.x]
 
     steps:
     - uses: actions/checkout@v3
