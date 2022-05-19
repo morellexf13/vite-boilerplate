@@ -13,16 +13,14 @@ Tuto is the short of Tutorial and the best/easier way to start creating a SPA us
 - Basic Store configured using Pinia and Persist Plugin (stores/index.js).
 - Basic "Home" and "Login" pages defined (src/pages/).
 - Basic "Title" and "Button" components defined using slots and custom properties. 
-- Basic router configuration defined (router.js).
-- Basic GET request using Axios (Spotify Tracker API). 
+- Basic router configuration defined (/router.js).
+- Basic GET request using Axios (Spotify Tracker API). This request needs an [Authorization Bearer Token ](https://developer.spotify.com/console/get-users-currently-playing-track/). For security purposes you can just set this token on environment files.
+- Environment file example.
 - Jest configuration defined.
 - Unit test suite per each defined page, API test included 😎.
 - Path alias defined (vite.config.js).
+- GitHub actions workflow example defined.
 
-![Spotify Tracker Screenshot](./src/assets/screenshots/Spotify%20Tracker.png?raw=true "Title")
-<br/> !This request needs an [Authorization Bearer Token ](https://developer.spotify.com/console/get-users-currently-playing-track/). For security purposes you can just set this token on environment files.
-<br/>
-- Environment file example.
 
 ## 👨🏼‍🎨 Recommendations
  - Fontawesome (icons)
