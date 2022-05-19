@@ -53,6 +53,12 @@ on tuto boilerplate right now:
 1. `npm install`
 2. `npm run dev`
 
+## 🐙 Latest mode
+
+Use all dependencies with "latest" as value.
+
+1. `git checkout dependencies-latest`
+
 ## 🧪 Run tests
 
 1. `npm run test`
