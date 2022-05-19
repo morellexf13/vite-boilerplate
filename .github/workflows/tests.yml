@@ -12,7 +12,7 @@ jobs:
   build:
 
     runs-on: ubuntu-latest
-  
+    environment: prod
     strategy:
       matrix:
         node-version: [16.x]
@@ -26,3 +26,8 @@ jobs:
         cache: 'npm'
     - run: npm install
     - run: npm run test
+    # Publish to npmjs
+      if: endsWith(github.ref, 'main')
+    - uses: JS-DevTools/npm-publish@v1
+      with:
+        token: ${{ secrets.NPM_TOKEN }}
