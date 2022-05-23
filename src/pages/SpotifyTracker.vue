@@ -1,25 +1,37 @@
 <template>
-    <Title>Spotify Tracker</Title>
+  <div class="container">
+    <MainSection>
+      <li>
+        <a v-on:click="navigateToHome">Go Home</a>
+      </li>
+    </MainSection>
+    <br />
     <div v-if="isPlaying">
-      <img :src="imgSrc">
-      <h3> 🎸 You are currently listening to {{song}} by {{artist}}</h3>
+      <img :src="imgSrc" />
+      <p>🎸 You are currently listening to {{ song }} by {{ artist }}</p>
     </div>
     <div v-else>
-      <h3>▶️ Open and play something on Spotify to see changes</h3>
+      <p>
+        1. Set <i>VUE_APP_SPOTIFY_AUTHORIZATION_BEARER_TOKEN</i>
+        <br />
+        2. Play something on Spotify!
+      </p>
     </div>
+  </div>
 </template>
 
 <script>
-import * as api from '@/assets/scripts/api'
-import Title from '@/components/Title.vue'
+import MainSection from "@components/MainSection.vue"
+import * as api from "@/assets/scripts/api"
 export default {
   name: "SpotifyTracker",
-  components: { 
-    Title
+  components: {
+    MainSection
   },
-  mounted () {
-    api.getUsersCurrentlyPlayingTrack()
-    .then(item => {
+  mounted() {
+    api
+      .getUsersCurrentlyPlayingTrack()
+      .then((item) => {
         this.isPlaying = true
         this.song = item.name
         this.artist = item.artists[0].name
@@ -32,17 +44,18 @@ export default {
   data() {
     return {
       isPlaying: false,
-      song: '',
-      imgSrc: '',
-      artist: ''
+      song: "",
+      imgSrc: "",
+      artist: ""
+    }
+  },
+  methods: {
+    navigateToHome() {
+      this.$router.push("/")
     }
   }
-};
+}
 </script>
 
-<style>
-  img {
-    width: 200px;
-    height: 200px;
-  }
-</style>
+
+<style></style>

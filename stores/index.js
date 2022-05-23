@@ -5,38 +5,32 @@
  */
 import { defineStore } from 'pinia'
 export const useStore = defineStore('store', {
-    state: () => 
-    { 
-      return {
-        session: {
-          userIsLoggedIn: false
+    state: () => {
+        return {
+            session: {
+                userIsLoggedIn: false
+            }
         }
-      }
     },
     /**
      * 💪 This is needed to PERSIST your store values. 
      * Otherwise they will be lost when you refresh the page.
-     * */ 
+     * */
     persist: {
-      enabled: true,
-      strategies: [
-      {
-        key: 'store',
-        storage: localStorage, // or sessionStorage
-      },
-      ],
+        enabled: true,
+        strategies: [{
+            key: 'store',
+            storage: localStorage, // or sessionStorage
+        }, ],
     },
     getters: {
-      userIsLoggedIn(state) {
-        return state.session.userIsLoggedIn
-      }
+        userIsLoggedIn(state) {
+            return state.session.userIsLoggedIn
+        }
     },
     actions: {
-      setUserLoggedIn() {
-        this.session.userIsLoggedIn = true;
-      },
-      setUserLoggedOut() {
-        this.session.userIsLoggedIn = false;
-      }
+        setUserLoggedIn(state) {
+            this.session.userIsLoggedIn = state;
+        }
     }
 })

@@ -6,9 +6,9 @@ import { createApp } from 'vue'
 import App from './App.vue'
 import router from '../router.js'
 import { createPinia } from 'pinia'
-import piniaPersist from 'pinia-plugin-persist' 
+import piniaPersist from 'pinia-plugin-persist'
 import { useStore } from '../stores/index'
-
+import "@assets/css/index.css"
 const app = createApp(App)
 const pinia = createPinia()
 pinia.use(piniaPersist)
@@ -18,7 +18,7 @@ app.use(router)
 router.beforeEach((from, to, next) => {
     // ✅ Check if user has logged in to decide if we should show the login page or not.
     const store = useStore(pinia)
-    if (from.name != 'login' && !store.userIsLoggedIn){
+    if (from.name != 'login' && !store.userIsLoggedIn) {
         next({
             path: 'login',
             replace: true
@@ -26,6 +26,6 @@ router.beforeEach((from, to, next) => {
     } else {
         next();
     }
-  })
+})
 
 app.mount('#app')
