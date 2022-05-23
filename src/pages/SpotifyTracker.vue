@@ -12,9 +12,9 @@
     </div>
     <div v-else>
       <p>
-        1. Set <i>VUE_APP_SPOTIFY_AUTHORIZATION_BEARER_TOKEN</i>
+        1. Set <i>VITE_SPOTIFY_AUTHORIZATION_BEARER_TOKEN</i>
         <br />
-        2. Play something on Spotify!
+        2. Play something on Spotify! (Refresh the page if you can see the song playing)
       </p>
     </div>
   </div>
