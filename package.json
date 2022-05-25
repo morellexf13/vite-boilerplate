@@ -2,12 +2,12 @@
   "name": "vite-tuto",
   "description": "This boilerplate helps you to start creating your own Vue 3 projects using amazing tools!",
   "private": false,
-  "version": "1.0.1",
+  "version": "1.0.2",
   "license": "MIT",
   "keywords": ["boilerplate", "vue", "vuex", "axios", "vite", "pinia"],
   "repository": {
       "type": "git",
-      "url": "https://github.com/morellexf26/tuto.git"
+      "url": "https://github.com/morellexf26/vite-tuto.git"
   },
   "scripts": {
     "dev": "vite",
