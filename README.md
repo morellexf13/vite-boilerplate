@@ -24,8 +24,6 @@
 
 <img alt='Website' src="./src/assets/screenshots/login.png" />
 
-This boilerplate helps you to start creating your own Vue 3 projects using ⚡️Vite, 🍍Pinia, 🚏Vuex Router, 📡 Axios, 🤹🏻‍♂️ Jest and more amazing tools.
-
 Tuto is the short of Tutorial and the best/easier way to start creating a SPA using the latest versions of the best frameworks out there! 🤩
 
 <br>
