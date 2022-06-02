@@ -1,15 +1,25 @@
-# ⚡️ Vite Tuto
-
 <div align="center">
+  <h1>
+    <br/>
+    ⚡️
+    <br />
+    <br />
+    Vite Tuto
+    <br />
+    <br />
+  </h1>
+  <sup>
+    <br />
+   A Vue 3 Starter Boilerplate with Vue Router 4, Pinia 2, Vite 2, Sass, Axios, Jest and More.</em>
+    <br />
+    <br /
 
-[![License](https://img.shields.io/badge/-MIT-f56565.svg?longCache=true&style=for-the-badge)](https://github.com/morellexf26/vite-tuto/blob/main/LICENSE)
 [![Version](https://img.shields.io/github/v/tag/morellexf26/vite-tuto?label=%20&style=for-the-badge)](https://github.com/morellexf26/vite-tuto/releases)
-[![Build](https://img.shields.io/github/workflow/status/morellexf26/vite-tuto/Build?label=%20&logo=github&logoColor=white&style=for-the-badge)](https://github.com/morellexf26/vite-tuto/actions?query=workflow%3Abuild) 
-![Vue](https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vue.js&logoColor=4FC08D) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![SASS](https://img.shields.io/badge/SASS-hotpink.svg?style=for-the-badge&logo=SASS&logoColor=white) ![Jest](https://img.shields.io/badge/-jest-%23C21325?style=for-the-badge&logo=jest&logoColor=white)
+[![License](https://img.shields.io/badge/-MIT-f56565.svg?longCache=true&style=for-the-badge)](https://github.com/morellexf26/vite-tuto/blob/main/LICENSE)
+[![Package Monthly Downloads](https://img.shields.io/npm/dm/vite-tuto?label=%20&style=for-the-badge)](https://www.npmjs.com/package/vite-tuto)
+[![Docs](https://img.shields.io/badge/-Docs-blue.svg?style=for-the-badge)](https://vuejs.org)
 
-<img src=".github/images/built-with.svg">
-<img src=".github/images/uses-js.svg">
-
+  </sup>
 </div>
 
 <img alt='Website' src="./src/assets/screenshots/login.png" />
@@ -57,7 +67,7 @@ Tuto is the short of Tutorial and the best/easier way to start creating a SPA us
 
 ## 🏛 Folder Structure
 
-```
+```json
 vite-tuto
 ├─ .gitignore
 ├─ LICENSE
@@ -105,24 +115,21 @@ vite-tuto
 
 <br>
 
-## 🏁 Start
-Create your project directly from GitHub based
-on tuto boilerplate right now:
+## 🚀 Install
 
-<a href="https://github.com/morellexf26/vite-tuto/generate"> 
-<img src=".github/images/generate-your-project.svg"/>
-</a>
+Install it locally in your project
 
-<br>
+```bash
+npm install
 
-## 🏃🏼‍♂️ Run
-
-1. `npm install`
-2. `npm run dev`
-
+npm run dev
+```
 
 <br>
 
-## 🧪 Run tests
 
-1. `npm run test`
+## 🧪 Unit tests
+
+```
+npm run test
+```
