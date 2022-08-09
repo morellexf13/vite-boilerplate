@@ -10,7 +10,7 @@
   </h1>
   <sup>
     <br />
-   A Vue 3 Starter Boilerplate with Vue Router 4, Pinia 2, Vite 2, Sass, Axios, Jest and More.</em>
+   A Vue 3 Starter Boilerplate with Vue Router 4, Pinia 2, Vite 2, Sass, Axios, Jest 28 and More.</em>
     <br />
     <br /
 
@@ -65,7 +65,7 @@ Tuto is the short of Tutorial and the best/easier way to start creating a SPA us
 
 ## 🏛 Folder Structure
 
-```json
+```
 vite-tuto
 ├─ .gitignore
 ├─ LICENSE
