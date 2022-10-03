@@ -2,7 +2,7 @@
   "name": "vite-tuto",
   "description": "A Vue 3 Starter Boilerplate with Vue Router 4, Pinia 2, Vite 2, Sass, Axios, Jest and More.",
   "private": false,
-  "version": "1.0.7",
+  "version": "1.0.8",
   "license": "MIT",
   "keywords": [
     "boilerplate",
