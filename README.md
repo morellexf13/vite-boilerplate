@@ -4,7 +4,7 @@
     ⚡️
     <br />
     <br />
-    Vite Tuto
+    Quick Vue
     <br />
     <br />
   </h1>
@@ -14,9 +14,9 @@
     <br />
     <br /
 
-[![Version](https://img.shields.io/github/v/tag/morellexf26/vite-tuto?label=%20&style=for-the-badge)](https://github.com/morellexf26/vite-tuto/releases)
-[![License](https://img.shields.io/badge/-MIT-f56565.svg?longCache=true&style=for-the-badge)](https://github.com/morellexf26/vite-tuto/blob/main/LICENSE)
-[![Package Monthly Downloads](https://img.shields.io/npm/dm/vite-tuto?label=%20&style=for-the-badge)](https://www.npmjs.com/package/vite-tuto)
+[![Version](https://img.shields.io/github/v/tag/morellexf26/quick-vue?label=%20&style=for-the-badge)](https://github.com/morellexf26/quick-vue/releases)
+[![License](https://img.shields.io/badge/-MIT-f56565.svg?longCache=true&style=for-the-badge)](https://github.com/morellexf26/quick-vue/blob/main/LICENSE)
+[![Package Monthly Downloads](https://img.shields.io/npm/dm/quick-vue?label=%20&style=for-the-badge)](https://www.npmjs.com/package/quick-vue)
 [![Docs](https://img.shields.io/badge/-Docs-blue.svg?style=for-the-badge)](https://vuejs.org)
 
   </sup>
@@ -28,7 +28,7 @@ Tuto is the short of Tutorial and the best/easier way to start creating a SPA us
 
 <br>
 
-## 👨🏻‍🏫  Basic topics
+## 👨🏻‍🏫 Basic topics
 
 - [What is Vue?](https://vuejs.org/guide/introduction.html#what-is-vue)
 - [Single-File Components](https://vuejs.org/guide/introduction.html#single-file-components)
@@ -52,7 +52,7 @@ Tuto is the short of Tutorial and the best/easier way to start creating a SPA us
 - Basic login/logout state definition using Pinia.
 - Basic Store configured using Pinia and Persist Plugin (stores/index.js).
 - Basic "Home" and "Login" pages defined (src/pages/).
-- Basic "Title" and "Button" components defined using slots and custom properties. 
+- Basic "Title" and "Button" components defined using slots and custom properties.
 - Basic router configuration defined (/router.js).
 - Basic GET request using Axios (Spotify Tracker API). This request needs an [Authorization Bearer Token ](https://developer.spotify.com/console/get-users-currently-playing-track/). For security purposes you can just set this token on environment files.
 - Environment file example.
@@ -66,7 +66,7 @@ Tuto is the short of Tutorial and the best/easier way to start creating a SPA us
 ## 🏛 Folder Structure
 
 ```
-vite-tuto
+quick-vue
 ├─ .gitignore
 ├─ LICENSE
 ├─ README.md
@@ -124,7 +124,6 @@ npm run dev
 ```
 
 <br>
-
 
 ## 🧪 Unit tests
 

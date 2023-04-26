@@ -3,10 +3,10 @@
     <div class="hello">
       <span>⚡️</span>
       <h1>
-        {{ !userIsLoggedIn ? "Welcome to Vite Tuto!" : "You are now logged in" }}
+        {{ !userIsLoggedIn ? "Welcome to Quick Vue!" : "You are now logged in" }}
       </h1>
       <p v-if="!userIsLoggedIn">
-        This boilerplate helps you to start creating 
+        This boilerplate helps you to start creating
         <br>
         your own Vue 3 projects using amazing tools!
       </p>
