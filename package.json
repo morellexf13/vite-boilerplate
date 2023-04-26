@@ -1,5 +1,5 @@
 {
-  "name": "quick-vue",
+  "name": "@morellexf13/quick-vue",
   "description": "A Vue 3 Starter Boilerplate with Vue Router 4, Pinia 2, Vite 4, Sass, Axios, Jest and More.",
   "private": false,
   "version": "1.0.12",
