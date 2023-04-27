@@ -1,5 +1,5 @@
 {
-  "name": "@morellexf13/quick-vue",
+  "name": "vue-bolt",
   "description": "A Vue 3 Starter Boilerplate with Vue Router 4, Pinia 2, Vite 4, Sass, Axios, Jest and More.",
   "private": false,
   "publishConfig": {
@@ -17,7 +17,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/morellexf13/quick-vue.git"
+    "url": "https://github.com/morellexf13/vue-bolt.git"
   },
   "scripts": {
     "dev": "vite",

@@ -1,5 +1,3 @@
-# 🐙 Using node 16.x image, run jest unit tests in GitHub Actions.
-# You can create your first workflow yml by https://github.com/[YOUR GIT NAME]/[YOUR REPO NAME]/actions/new
 name: Build
 
 on:

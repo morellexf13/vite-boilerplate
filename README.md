@@ -4,7 +4,7 @@
     ⚡️
     <br />
     <br />
-    Quick Vue
+    Vue Bolt
     <br />
     <br />
   </h1>
@@ -14,9 +14,9 @@
     <br />
     <br /
 
-[![Version](https://img.shields.io/github/v/tag/morellexf26/quick-vue?label=%20&style=for-the-badge)](https://github.com/morellexf26/quick-vue/releases)
-[![License](https://img.shields.io/badge/-MIT-f56565.svg?longCache=true&style=for-the-badge)](https://github.com/morellexf26/quick-vue/blob/main/LICENSE)
-[![Package Monthly Downloads](https://img.shields.io/npm/dm/quick-vue?label=%20&style=for-the-badge)](https://www.npmjs.com/package/quick-vue)
+[![Version](https://img.shields.io/github/v/tag/morellexf26/vue-bolt?label=%20&style=for-the-badge)](https://github.com/morellexf26/vue-bolt/releases)
+[![License](https://img.shields.io/badge/-MIT-f56565.svg?longCache=true&style=for-the-badge)](https://github.com/morellexf26/vue-bolt/blob/main/LICENSE)
+[![Package Monthly Downloads](https://img.shields.io/npm/dm/vue-bolt?label=%20&style=for-the-badge)](https://www.npmjs.com/package/vue-bolt)
 [![Docs](https://img.shields.io/badge/-Docs-blue.svg?style=for-the-badge)](https://vuejs.org)
 
   </sup>
@@ -66,7 +66,7 @@ Tuto is the short of Tutorial and the best/easier way to start creating a SPA us
 ## 🏛 Folder Structure
 
 ```
-quick-vue
+vue-bolt
 ├─ .gitignore
 ├─ LICENSE
 ├─ README.md
