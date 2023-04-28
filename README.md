@@ -14,8 +14,8 @@
     <br />
     <br /
 
-[![Version](https://img.shields.io/github/v/tag/morellexf26/vue-bolt?label=%20&style=for-the-badge)](https://github.com/morellexf26/vue-bolt/releases)
-[![License](https://img.shields.io/badge/-MIT-f56565.svg?longCache=true&style=for-the-badge)](https://github.com/morellexf26/vue-bolt/blob/main/LICENSE)
+[![Version](https://img.shields.io/github/v/tag/morellexf13/vue-bolt?label=%20&style=for-the-badge)](https://github.com/morellexf13/vue-bolt/releases)
+[![License](https://img.shields.io/badge/-MIT-f56565.svg?longCache=true&style=for-the-badge)](https://github.com/morellexf13/vue-bolt/blob/main/LICENSE)
 [![Package Monthly Downloads](https://img.shields.io/npm/dm/vue-bolt?label=%20&style=for-the-badge)](https://www.npmjs.com/package/vue-bolt)
 [![Docs](https://img.shields.io/badge/-Docs-blue.svg?style=for-the-badge)](https://vuejs.org)
 
