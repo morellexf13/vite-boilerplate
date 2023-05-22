@@ -14,6 +14,7 @@
     <br />
     <br /
 
+[![Build status](https://img.shields.io/github/actions/workflow/status/morellexf13/vue-bolt/build.yml?branch=main&label=%20&logo=github&logoColor=white&style=for-the-badge)](https://github.com/morellexf13/vue-bolt/actions/workflows/build.yml)
 [![Version](https://img.shields.io/github/v/tag/morellexf13/vue-bolt?label=%20&style=for-the-badge)](https://github.com/morellexf13/vue-bolt/releases)
 [![License](https://img.shields.io/badge/-MIT-f56565.svg?longCache=true&style=for-the-badge)](https://github.com/morellexf13/vue-bolt/blob/main/LICENSE)
 [![Package Monthly Downloads](https://img.shields.io/npm/dm/vue-bolt?label=%20&style=for-the-badge)](https://www.npmjs.com/package/vue-bolt)
@@ -24,11 +25,11 @@
 
 <img alt='Website' src="./src/assets/screenshots/login.png" />
 
-Tuto is the short of Tutorial and the best/easier way to start creating a SPA using the latest versions of the best frameworks out there! 🤩
-
 <br>
 
-## 👨🏻‍🏫 Basic topics
+Create a cutting-edge website using the latest technologies available. Vue Bolt, an all-inclusive solution, will provide you with essential features such as framework integration, state management, routing, API communication, unit testing, and much more.
+
+## 👨🏻‍🏫 Learn More
 
 - [What is Vue?](https://vuejs.org/guide/introduction.html#what-is-vue)
 - [Single-File Components](https://vuejs.org/guide/introduction.html#single-file-components)
@@ -43,11 +44,11 @@ Tuto is the short of Tutorial and the best/easier way to start creating a SPA us
 - [Pinia - Actions](https://pinia.vuejs.org/core-concepts/actions.html)
 - [Vuex Router - Getting Started](https://router.vuejs.org/guide/#getting-started)
 - [Vuex Router - Navigation Guard](https://router.vuejs.org/guide/advanced/navigation-guards.html#navigation-guards)
-- [Jest Unit Tests (🇪🇸)](https://medium.com/@agustinmorelle01/las-7-claves-del-%C3%A9xito-tests-unitarios-de-frontend-vue-js-y-jest-28988ae561ac)
+- [Jest Unit Tests (Spanish only)](https://medium.com/@agustinmorelle01/las-7-claves-del-%C3%A9xito-tests-unitarios-de-frontend-vue-js-y-jest-28988ae561ac)
 
 <br>
 
-## 💎 Features
+## 🌈 Features
 
 - Basic login/logout state definition using Pinia.
 - Basic Store configured using Pinia and Persist Plugin (stores/index.js).
@@ -57,7 +58,7 @@ Tuto is the short of Tutorial and the best/easier way to start creating a SPA us
 - Basic GET request using Axios (Spotify Tracker API). This request needs an [Authorization Bearer Token ](https://developer.spotify.com/console/get-users-currently-playing-track/). For security purposes you can just set this token on environment files.
 - Environment file example.
 - Jest configuration defined.
-- Unit test suite per each defined page, API test included 😎.
+- Unit test suite per each defined page, API test included.
 - Path alias defined (vite.config.js).
 - GitHub actions workflow example defined.
 
