@@ -14,16 +14,10 @@
     <br />
     <br /
 
-[![Build status](https://img.shields.io/github/actions/workflow/status/morellexf13/vite-boilerplate/build.yml?branch=main&label=%20&logo=github&logoColor=white&style=for-the-badge)](https://github.com/morellexf13/vite-boilerplate/actions/workflows/build.yml)
 [![Version](https://img.shields.io/github/v/tag/morellexf13/vite-boilerplate?label=%20&style=for-the-badge)](https://github.com/morellexf13/vite-boilerplate/releases)
-[![License](https://img.shields.io/badge/-MIT-f56565.svg?longCache=true&style=for-the-badge)](https://github.com/morellexf13/vite-boilerplate/blob/main/LICENSE)
-[![Package Monthly Downloads](https://img.shields.io/npm/dm/vite-boilerplate?label=%20&style=for-the-badge)](https://www.npmjs.com/package/vite-boilerplate)
-[![Docs](https://img.shields.io/badge/-Docs-blue.svg?style=for-the-badge)](https://vuejs.org)
 
   </sup>
 </div>
-
-<img alt='Website' src="./src/assets/screenshots/login.png" />
 
 <br>
 
