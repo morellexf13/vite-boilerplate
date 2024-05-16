@@ -3,7 +3,7 @@
     <div class="hello">
       <span>⚡️</span>
       <h1>
-        {{ !userIsLoggedIn ? "Welcome to Vue Bolt!" : "You are now logged in" }}
+        {{ !userIsLoggedIn ? "Welcome to Vite Boilerplate!" : "You are now logged in" }}
       </h1>
       <p v-if="!userIsLoggedIn">
         This boilerplate helps you to start creating

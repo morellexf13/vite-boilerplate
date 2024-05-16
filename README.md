@@ -4,7 +4,7 @@
     ⚡️
     <br />
     <br />
-    Vue Bolt
+    Vite Boilerplate
     <br />
     <br />
   </h1>
@@ -14,10 +14,10 @@
     <br />
     <br /
 
-[![Build status](https://img.shields.io/github/actions/workflow/status/morellexf13/vue-bolt/build.yml?branch=main&label=%20&logo=github&logoColor=white&style=for-the-badge)](https://github.com/morellexf13/vue-bolt/actions/workflows/build.yml)
-[![Version](https://img.shields.io/github/v/tag/morellexf13/vue-bolt?label=%20&style=for-the-badge)](https://github.com/morellexf13/vue-bolt/releases)
-[![License](https://img.shields.io/badge/-MIT-f56565.svg?longCache=true&style=for-the-badge)](https://github.com/morellexf13/vue-bolt/blob/main/LICENSE)
-[![Package Monthly Downloads](https://img.shields.io/npm/dm/vue-bolt?label=%20&style=for-the-badge)](https://www.npmjs.com/package/vue-bolt)
+[![Build status](https://img.shields.io/github/actions/workflow/status/morellexf13/vite-boilerplate/build.yml?branch=main&label=%20&logo=github&logoColor=white&style=for-the-badge)](https://github.com/morellexf13/vite-boilerplate/actions/workflows/build.yml)
+[![Version](https://img.shields.io/github/v/tag/morellexf13/vite-boilerplate?label=%20&style=for-the-badge)](https://github.com/morellexf13/vite-boilerplate/releases)
+[![License](https://img.shields.io/badge/-MIT-f56565.svg?longCache=true&style=for-the-badge)](https://github.com/morellexf13/vite-boilerplate/blob/main/LICENSE)
+[![Package Monthly Downloads](https://img.shields.io/npm/dm/vite-boilerplate?label=%20&style=for-the-badge)](https://www.npmjs.com/package/vite-boilerplate)
 [![Docs](https://img.shields.io/badge/-Docs-blue.svg?style=for-the-badge)](https://vuejs.org)
 
   </sup>
@@ -27,7 +27,7 @@
 
 <br>
 
-Create a cutting-edge website using the latest technologies available. Vue Bolt, an all-inclusive solution, will provide you with essential features such as framework integration, state management, routing, API communication, unit testing, and much more.
+Create a cutting-edge website using the latest technologies available. Vite Boilerplate, an all-inclusive solution, will provide you with essential features such as framework integration, state management, routing, API communication, unit testing, and much more.
 
 ## 👨🏻‍🏫 Learn More
 
@@ -67,7 +67,7 @@ Create a cutting-edge website using the latest technologies available. Vue Bolt,
 ## 🏛 Folder Structure
 
 ```
-vue-bolt
+vite-boilerplate
 ├─ .gitignore
 ├─ LICENSE
 ├─ README.md
