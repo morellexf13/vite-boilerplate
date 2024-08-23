@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <div class="hello">
-      <span>⚡️</span>
+      <img src="../assets/logo.png" width="100" />
       <h1>
         {{ !userIsLoggedIn ? "Welcome to Vite Boilerplate!" : "You are now logged in" }}
       </h1>

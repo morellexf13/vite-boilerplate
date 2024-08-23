@@ -1,7 +1,7 @@
 <div align="center">
   <h1>
     <br/>
-    ⚡️
+    <img src="./src/assets/logo.png" width="80" />
     <br />
     <br />
     Vite Boilerplate
@@ -23,7 +23,7 @@
 
 Create a cutting-edge website using the latest technologies available. Vite Boilerplate, an all-inclusive solution, will provide you with essential features such as framework integration, state management, routing, API communication, unit testing, and much more.
 
-## 👨🏻‍🏫 Learn More
+## Learn More
 
 - [What is Vue?](https://vuejs.org/guide/introduction.html#what-is-vue)
 - [Single-File Components](https://vuejs.org/guide/introduction.html#single-file-components)
@@ -42,7 +42,7 @@ Create a cutting-edge website using the latest technologies available. Vite Boil
 
 <br>
 
-## 🌈 Features
+## Features
 
 - Basic login/logout state definition using Pinia.
 - Basic Store configured using Pinia and Persist Plugin (stores/index.js).
@@ -58,7 +58,7 @@ Create a cutting-edge website using the latest technologies available. Vite Boil
 
 <br>
 
-## 🏛 Folder Structure
+## Folder Structure
 
 ```
 vite-boilerplate
@@ -67,42 +67,42 @@ vite-boilerplate
 ├─ README.md
 ├─ babel.config.json
 ├─ index.html
-├─ jest.config.js // 🃏 Unit tests configuration
+├─ jest.config.js // Unit tests configuration
 ├─ jsconfig.json
 ├─ package-lock.json
 ├─ package.json
 ├─ public
 │  └─ favicon.ico
-├─ router.js // 🧭 Handle page routes
+├─ router.js // Handle page routes
 ├─ src
 │  ├─ App.vue
 │  ├─ assets
 │  │  ├─ css
-│  │  │  └─ index.css // 🎨 Main stylesheet file
+│  │  │  └─ index.css // Main stylesheet file
 │  │  ├─ logo.png
 │  │  ├─ screenshots
 │  │  │  └─ login.png
 │  │  └─ scripts
-│  │     ├─ api.js // 📡 Handle api calls
-│  │     └─ session.js // 👦🏻 Handle user session
+│  │     ├─ api.js // Handle api calls
+│  │     └─ session.js // Handle user session
 │  ├─ components
 │  │  ├─ Button.vue
 │  │  ├─ MainSection.vue
 │  │  ├─ Title.vue
 │  │  └─ UserSessionLink.vue
-│  ├─ main.js // 🪴 Application's entry point
+│  ├─ main.js // Application's entry point
 │  └─ pages
 │     ├─ Home.vue
 │     ├─ Login.vue
 │     └─ SpotifyTracker.vue
 ├─ stores
-│  └─ index.js // 💾 Save general state of the app
-├─ tests // 🃏 Unit tests
+│  └─ index.js // Save general state of the app
+├─ tests // Unit tests
 │  ├─ routerMock.js
 │  └─ unit
 │     ├─ spotify.spec.js
 │     └─ user-session.spec.js
-└─ vite.config.js // 📦 Bundler setup, alias and more
+└─ vite.config.js // Bundler setup, alias and more
 
 ```
 
