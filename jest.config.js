@@ -9,7 +9,7 @@ module.exports = {
   moduleFileExtensions: ["js", "ts", "vue", "json"],
   setupFilesAfterEnv: [`${ROOT_DIR}/tests/setup.js`],
   moduleNameMapper: {
-    ".+\\.(css|styl|less|sass|scss|png|jpg|ttf|woff|woff2)$":
+    ".+\\.(css|styl|less|sass|scss|jpg|ttf|woff|woff2)$":
       "identity-obj-proxy",
     "^~/(.*)$": FULL_ROOT_SRC,
     "^~~/(.*)$": FULL_ROOT_SRC,
